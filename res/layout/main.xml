@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Twitter screen name:"
+            />
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="0x17"
+            android:id="@+id/snameEditTxt"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Followers"
+            android:id="@+id/saveFollowersBtn" android:layout_marginLeft="1dp" android:onClick="saveFollowersClick"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="Show Unfollowers"
+            android:id="@+id/showUnfollowersBtn" android:layout_marginLeft="-7dp"
+            android:layout_marginRight="-3dp" android:onClick="showUnfollowersClick"/>
+</LinearLayout>
+
